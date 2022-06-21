@@ -1,0 +1,18 @@
+@mixin button {
+    outline: none;
+    border: none;
+    background-color: $yellow;
+    color: white;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 5px;
+    max-width: 180px;
+    width: 100%;
+    transition: all 0.6s ease;
+    cursor: pointer;
+    &:hover {
+        background: transparent;
+        color: $yellow;
+        box-shadow: 0 0 0 2px;
+    }
+}
